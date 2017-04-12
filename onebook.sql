@@ -1,0 +1,22 @@
+USE [lms]
+GO
+
+/****** Object:  Table [dbo].[OneBook]    Script Date: 2017/4/12 14:09:30 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[OneBook](
+	[oneNo] [int] IDENTITY(1,1) NOT NULL,
+	[oneName] [nvarchar](50) NULL,
+ CONSTRAINT [PK_OneBook] PRIMARY KEY CLUSTERED 
+(
+	[oneNo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
