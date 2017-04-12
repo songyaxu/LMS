@@ -28,3 +28,6 @@ CString CAdmin::GetDefaultConnect()
 	return _T("ODBC;DSN=图书管理系统");
 }
 ```
+我是用的是Visual C++ 6.0 编译器。
+使用编译器打开源码，然后看到项目的目录结构大概是这个样子的。
+![](img/catalog.png)
