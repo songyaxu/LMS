@@ -14,14 +14,14 @@
 
 
 > 如何创建ODBC数据源：
-1. 搜索程序输入：ODBC
-2. ![1](img/odbc_settings.png)
-3. ![1](img/odbc_settings_1.png)
-4. ![1](img/odbc_settings_2.png)
-5. ![1](img/odbc_settings_3.png)
-6. 其中lms是我们创建的数据库名称
-7. 图书管理系统 是数据源的名称，使我们在代码中使用的！
-``` c++
+> 1. 搜索程序输入：ODBC
+> 2. ![1](img/odbc_settings.png)
+> 3. ![1](img/odbc_settings_1.png)
+> 4. ![1](img/odbc_settings_2.png)
+> 5. ![1](img/odbc_settings_3.png)
+> 6. 其中lms是我们创建的数据库名称
+> 7. 图书管理系统 是数据源的名称，使我们在代码中使用的！
+> ``` c++
 CString CAdmin::GetDefaultConnect()
 {
 	return _T("ODBC;DSN=图书管理系统");
